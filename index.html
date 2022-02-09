@@ -1,0 +1,102 @@
+<!--Author: Atul Pratap Singh
+   Made on: 09 Feb 2022
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atul Nav bar</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+           
+            }
+            body{
+                 background-image: url(img.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            }
+            li,a,button{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                color: #c11cf3;
+                text-decoration: none;
+            }
+            header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px 10%;
+            }
+            .logo{
+                cursor: pointer;
+            }
+            .links{
+                list-style: none;
+            }
+            .links li{
+                display: inline-block;
+                padding: 0 20px;
+            }
+            .links li a{
+                transition: all 0.3s ease 0s;
+                font-size: 25px;
+                text-transform: uppercase;
+            }
+            .links li a:hover{
+                color: #0088a9;
+            }
+            button{
+                padding: 9px 25px;
+               background-color: rgb(217, 255, 79);
+                border: none;
+                color: rgb(219, 155, 169);
+                border-radius: 50px;
+                cursor: pointer;
+                transition: all 0.3s ease 0s;
+            }
+            button:hover{
+                color: rgb(255, 28, 217);
+            }
+            #main_text{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 45px;
+                font-weight: 500;
+                text-shadow: 16px 16px 0 rgba(250, 117, 29, 0.877);   
+            }
+            #main_text h3{
+                text-align: center;
+                padding: 15px 13px;
+                margin: 100px 25px;
+                
+                color: #ddf16b;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="logo" class="logo">
+        
+        <nav>
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn"><button>Contact Us</button></a>
+    </header>
+    <main id="main_text">
+        <h3>Hello I'm Atul Pratap Singh</h3>
+    </main>
+</body>
+</html>
